@@ -14,7 +14,7 @@ const shuffleArray = (array) => {
 };
 
 const API_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://colorchef.onrender.com/api/upload/'
+  ? 'https://colorchef-87pc.onrender.com/api/upload/'
   : 'http://localhost:8000/api/upload/';
 
 const App = () => {
